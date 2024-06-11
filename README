@@ -1,0 +1,10 @@
+creacion de modulos
+go mod init github.com/Rottingwitch/greetings 
+go mod edit -replace github.com/Rottingwitch/greetings=../greetings 
+go mod tidy
+
+## Instalacion
+Ejectar el sigueinte comando para instalar paquetes:
+```bash
+go get -u github.com/Rottingwitch/greetings-class
+```
